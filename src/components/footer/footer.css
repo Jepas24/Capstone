@@ -1,0 +1,57 @@
+.csRadio__Footer{
+    display: flex;
+    font-family: var(--font-family);
+    padding: 2rem 6rem;
+}
+
+.csRadio__Footer-text{
+    color: white;
+    margin-left: 14%;
+}
+.csRadio__Footer-Views{
+    margin-left: 50%;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .csRadio__Footer{
+        flex-direction: row;
+    }
+
+    .csRadio__Footer-text{
+        color: white;
+        margin-left: 1px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .csRadio__Footer-Views{
+        color: white;
+        margin-left: 150px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .csRadio__Footer{
+        flex-direction: row;
+        margin-left: 1px;
+        padding: 2rem 1rem;
+    }
+
+    .csRadio__Footer-text{
+        color: white;
+        margin-left: 1px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .csRadio__Footer-Views{
+        color: white;
+        margin-left: 150px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,250 @@
+.csRadio__Main{
+
+    display: flex;
+    padding: 2rem 6rem;
+    background-color: black;
+    font-family: var(--font-family);
+
+}
+
+
+.csRadio__Main-Context-text-1{
+    font-size: 30px;
+    margin-top: 50px;
+    color: #066fb7;
+    margin-left: 250px;
+    
+}
+
+.csRadio__Main-Context-text-2{
+    color: rgb(194, 198, 202);
+    margin-top: 25px ;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.csRadio__Main-Context-text-3{
+    color: rgb(194, 198, 202);
+    margin-top: 10px ;
+    margin-left: 250px;
+    font-size: 13px;
+}
+
+.csRadio__Main-Context-Song-1{
+    font-size: 30px;
+    margin-top: 50px;
+    color: #066fb7;
+    margin-left: 250px;
+}
+
+.csRadio__Main-Context-Song-2{
+    color: rgb(194, 198, 202);
+    margin-top: 25px ;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.csRadio__Main-Context-Song-3{
+    color: rgb(194, 198, 202);
+    margin-top: 10px ;
+    margin-left: 250px;
+    font-size: 15px;
+}
+.csRadio__Main-Context-Filscap{
+    margin-right: 200px;
+}
+.csRadio__Main-Context-Filscap-1{
+    font-size: 30px;
+    margin-top: 50px;
+    color: #066fb7;
+    margin-left: 200px;
+}
+
+.csRadio__Main-Context-Filscap-2{
+    color: rgb(194, 198, 202);
+    margin-top: 30px ;
+    margin-left: 200px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.csRadio__Main-Context-Filscap img{
+    color: rgb(194, 198, 202);
+    margin-top: 30px ;
+    margin-left: 200px;
+    font-size: 15px;
+
+}
+@media screen and (max-width: 1700px) {
+    .csRadio__Main{
+        flex-direction: column;
+    }
+    .csRadio__Main-Context-Song{
+        margin-right: none
+    }
+   
+}
+@media screen and (max-width: 1300px) {
+    .csRadio__Main{
+        flex-direction: column;
+    }
+    .csRadio__Main-Context-Song{
+        margin-right: none
+    }
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .csRadio__Main{
+        flex-direction: column;
+    }
+    .csRadio__Main-Context-Song{
+        margin-right: none
+    }
+   
+}
+  @media screen and (max-width: 800px) {
+    .csRadio__Main{
+        flex-direction: column;
+    }
+
+    .csRadio__Main-Context-text-1{
+        font-size: 30px;
+        margin-top: 1px;
+        color: #066fb7;
+        margin-left: 1px;
+    }
+    
+    .csRadio__Main-Context-text-2{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 20px;
+    }
+    .csRadio__Main-Context-text-3{
+        color: rgb(194, 198, 202);
+        margin-top: 10px ;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    
+    .csRadio__Main-Context-Song-1{
+        font-size: 30px;
+        margin-top: 10px;
+        color: #066fb7;
+        margin-left: 1px;
+    }
+    
+    .csRadio__Main-Context-Song-2{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 20px;
+    }
+    .csRadio__Main-Context-Song-3{
+        color: rgb(194, 198, 202);
+        margin-top: 10px ;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    
+    .csRadio__Main-Context-Filscap-1{
+        font-size: 30px;
+        margin-top: 1px;
+        color: #066fb7;
+        margin-left: 1px;
+    }
+    
+    .csRadio__Main-Context-Filscap-2{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 15px;
+    
+    }
+    .csRadio__Main-Context-Filscap img{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+  
+    
+  }
+  @media screen and (max-width: 400px) {
+    .csRadio__Main{
+        flex-direction: column;
+    
+    }
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    .csRadio__Main{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+
+    }
+
+    .csRadio__Main-Context-text-1{
+        font-size: 30px;
+        margin-top: 1px;
+        color: #066fb7;
+        margin-left: 1px;
+    }
+    
+    .csRadio__Main-Context-text-2{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 20px;
+    }
+    .csRadio__Main-Context-text-3{
+        color: rgb(194, 198, 202);
+        margin-top: 10px ;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    
+    .csRadio__Main-Context-Song-1{
+        font-size: 30px;
+        margin-top: 10px;
+        color: #066fb7;
+        margin-left: 1px;
+    }
+    
+    .csRadio__Main-Context-Song-2{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 20px;
+    }
+    .csRadio__Main-Context-Song-3{
+        color: rgb(194, 198, 202);
+        margin-top: 10px ;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    
+    .csRadio__Main-Context-Filscap-1{
+        font-size: 30px;
+        margin-top: 1px;
+        color: #066fb7;
+        margin-left: 1px;
+    }
+    
+    .csRadio__Main-Context-Filscap-2{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 15px;
+    
+    }
+    .csRadio__Main-Context-Filscap img{
+        color: rgb(194, 198, 202);
+        margin-top: 1px ;
+        margin-left: 1px;
+        font-size: 15px;
+    }
+  
+}

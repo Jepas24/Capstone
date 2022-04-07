@@ -1,0 +1,173 @@
+.csRadio__section{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    padding: 2rem 6rem;
+}
+.csRadio__section-Content{
+    color: white;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.csRadio__section-Content-text{
+    color: rgb(192, 189, 189);
+    margin-left: 20%;
+    font-size: 10px;
+}
+.csRadio__section-Content-Band{
+    color: rgb(194, 198, 202);
+    font-size: 20px;
+
+}
+.csRadio__section-Content-logo{
+    margin-left: 14%;
+    margin-right: 14%;
+    display: flex;
+}
+
+.rhap_container, .rhap_container *:focus{
+    outline: none;
+}
+.rhap_container{
+    box-shadow: none;
+    background-color: #066fb7;
+    font-family: var(--font-family);
+}
+.rhap_container svg{
+    color: white;
+}
+.rhap_time{
+    color: white;
+    margin-right: 15px;
+    font-size: 12px;
+}
+.rhap_progress-filled,
+.rhap_progress-indicator {
+  background-color: white ;
+}
+.rhap_progress-bar{
+    width: 400px;
+}
+
+
+.rhap_button-clear .rhap_volume-button {
+    color: white ;
+  }
+  
+  .rhap_volume-bar, .rhap_volume-indicator {
+    background-color: rgb(231, 220, 220);
+    
+  }
+  .rhap_volume-bar{
+      width: 80px;
+  }
+  @media screen and (max-width: 1700px) {
+
+    .rhap_container{
+        width: 60%;
+        background-color: #066fb7;
+        margin-left: 250px;
+    }
+    
+    .csRadio__section {
+        flex-direction: column;
+    }
+
+    .csRadio__section-Content {
+        margin-left: 150px;
+        font-size:  10px;
+    }
+    .csRadio__section-Content-Band{
+        margin-left: 5px;
+        font-size:  15px;
+        margin-top: 8px;
+    }
+    
+}
+  @media screen and (max-width: 1300px) {
+
+    .rhap_container{
+        width: 60%;
+        background-color: #066fb7;
+        margin-left: 250px;
+    }
+    
+    .csRadio__section {
+        flex-direction: column;
+    }
+
+    .csRadio__section-Content {
+        margin-left: 150px;
+        font-size:  10px;
+    }
+    .csRadio__section-Content-Band{
+        margin-left: 5px;
+        font-size:  15px;
+        margin-top: 8px;
+    }
+    
+}
+
+@media screen and (max-width: 1050px) {
+
+    .rhap_container{
+        width: 60%;
+        background-color: #066fb7;
+        margin-left: 1px;
+    }
+    
+    .csRadio__section {
+        flex-direction: column;
+    }
+
+    .csRadio__section-Content {
+        margin-left: 44px;
+        font-size:  10px;
+    }
+    .csRadio__section-Content-Band{
+        margin-left: 5px;
+        font-size:  15px;
+        margin-top: 8px;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    
+    .csRadio__section-Content{
+        font-size: 8px;
+    }
+    .rhap_container{
+        width: 90%;
+    }
+
+    .csRadio__section-Content-Band{
+        color: rgb(194, 198, 202);
+        font-size:15px;
+        margin-right: 100%;
+    }
+    .rhap_progress-bar{
+        width: 300px;
+    }
+  
+}
+
+@media screen and (max-width: 800px) {
+    
+    .csRadio__section-Content{
+        color: white;
+        font-size: 8px;
+        
+    }
+    .csRadio__section-Content-Band{
+        color: rgb(194, 198, 202);
+        font-size:15px;
+    }
+    .rhap_progress-bar{
+        width: 90px;
+    }
+  
+}
+
+

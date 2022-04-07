@@ -1,0 +1,277 @@
+.csRadio__header{
+    font-family: var(--font-family);
+}
+
+.csRadio__header-logo-OverDrive img{
+    flex: 1;
+    width: 100%;
+    height: 600px;
+    object-fit: none;
+}
+
+.csRadio__header-content-text-Overdrive{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    color: #ffffff;
+}
+
+
+.csRadio__header-content-Overdrive{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 32%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.csRadio__header-button-Overdrive {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 52%;
+    left: 363px;
+    background-color: #008CBA; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+     padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2:hover{
+    background-color: white;
+    color: black;
+}
+
+.button2 {
+    background-color: #066fb7; 
+    color: white; 
+    border: 2px solid ;
+  }
+  
+ .csRadio__header-content-t-Overdrive{
+    animation: rotate 3s;
+ } 
+   
+@keyframes rotate{
+    0%{
+        transform: translateY(-160px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+@media screen and (max-width: 1800px) {
+    .csRadio__header-content-text-Overdrive{
+        top: 35%;
+        left: 14%;
+    }
+    
+    
+    .csRadio__header-content-Overdrive{
+        top: 32%;
+        left: 44%;
+        font-size: 42px;
+    }
+    
+    .csRadio__header-button-Overdrive {
+        top: 52%;
+        left: 335px;
+    }
+}
+@media screen and (max-width: 1700px) {
+    .csRadio__header-content-text-Overdrive{
+        top: 35%;
+        left: 1%;
+    }
+    
+    
+    .csRadio__header-content-Overdrive{
+        top: 32%;
+        left: 35%;
+        font-size: 42px;
+    }
+    
+    .csRadio__header-button-Overdrive {
+        top: 52%;
+        left: 7%;
+    }
+  
+}
+@media screen and (max-width: 1600px) {
+    .csRadio__header-content-text-Overdrive{
+        top: 38%;
+        left: 1%;
+    }
+    
+    
+    .csRadio__header-content-Overdrive{
+        top: 32%;
+        left: 38%;
+        font-size: 42px;
+    }
+    
+    .csRadio__header-button-Overdrive {
+        top: 58%;
+        left: 8%;
+    }
+  
+}
+@media screen and (max-width: 1400px) {
+    .csRadio__header-content-Overdrive{
+        top: 50%;
+        left: 37%;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .csRadio__header-content-text-Overdrive{
+        top: 50%;
+        text-align: center;
+        
+    }
+    .csRadio__header-button-Overdrive {
+        top: 75%;
+        left: 7%;
+    }
+  
+}
+
+@media screen and (max-width: 1300px) {
+    .csRadio__header-content-Overdrive{
+        top: 33%;
+        left: 50%;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .csRadio__header-content-text-Overdrive{
+        top: 40%;
+        left: 5%;
+        text-align: center;
+        
+    }
+    .csRadio__header-button-Overdrive {
+        top: 60%;
+        left: 43%;
+    }
+  
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .csRadio__header-content-Overdrive{
+        top: 40%;
+        left: 50%;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .csRadio__header-content-text-Overdrive{
+        top: 50%;
+        left: 5%;
+        text-align: center;
+        
+    }
+    .csRadio__header-button-Overdrive {
+        top: 70%;
+        left: 40%;
+    }
+  
+}
+
+
+@media screen and (max-width: 850px) {
+    .csRadio__header-content-Overdrive{
+        top: 30%;
+        left: 50%;
+    }
+    .csRadio__header-content-text-Overdrive{
+        top: 35%;
+        left: 8%;
+        font-size: 15px;
+        
+    }
+    .csRadio__header-button-Overdrive{
+        top: 50%;
+        left: 40%;
+    }
+  
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .csRadio__header {
+        display: flex;
+        flex-direction: row;
+    }
+    .csRadio__header-content-Overdrive{
+        top: 38%;
+        left: 50%;
+        font-size: 30px;
+    }
+    .csRadio__header-content-text-Overdrive{
+        position: absolute;
+        top: 40%;
+        left: 14%;
+        font-size: 15px;
+        
+    }
+    .csRadio__header-button-Overdrive {
+        position: absolute;
+        top: 68%;
+        left: 28%;
+    }
+  
+}
+
+@media screen and (max-width: 400px) {
+    .csRadio__header-content-Overdrive{
+        top: 40%;
+        left: 50%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .csRadio__header-content-text-Overdrive{
+        top: 40%;
+        left: 14%;
+        font-size: 15px;
+        
+    }  
+}
+
+@media screen and (max-width: 380px) {
+    .csRadio__header-content-Overdrive{
+        top: 44%;
+        left: 50%;
+        font-size: 29px;
+    }  
+    .csRadio__header-content-text-Overdrive{
+        top: 50%;
+        left: 1%;
+        font-size: 15px;
+        
+    }
+    .csRadio__header-button-Overdrive {
+        position: absolute;
+        top: 75%;
+        left: 25%;
+    }
+}

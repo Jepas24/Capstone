@@ -1,0 +1,303 @@
+.csRadio__Request{
+    font-family: var(--font-family);
+    background-color: white;
+
+}
+.csRadio_Request-Content{
+    color: white;
+    background-color: black;
+}
+.csRadio__Request-Content-text{
+    margin-left: 28%;
+    font-size: 70px; 
+}
+
+.csRadio_Request-Content-all{
+    display: flex;
+    
+}
+.csRadio__Request-Link{
+    margin-right: 25%;
+    margin-top: 200px;
+}
+.csRadio__Request-Link p{
+    padding: 10px;
+}
+.csRadio_Request-Content-SearchBox{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 69%;
+}
+.csRadio_Request-Content-SearchBox input{
+    text-align: center;
+    padding: 5px;
+    border: 3px solid rgb(8, 8, 8);
+}
+.csRadio_Request-Content-SearchBox p{
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+.csRadio__Request-table{
+    margin-left: 18%;
+    margin-top: 5%;
+    width: 100%;
+    font-size: 20px;
+
+}
+.csRadio__Request-table-text {
+    width: 85%;
+
+}
+
+.csRadio__Request-table-text p:hover{
+    cursor: pointer;
+    background-color: #ddd;
+    color: #0356af;
+}
+.csRadio__Request-table-text p{
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.csRadio__Request-Content-table-Content-Request{
+     display: inline-table;
+    color: black;
+    border-collapse: collapse; 
+}
+.csRadio__Request-Content-table-Content-Request th{  
+    color: white;
+    background-color: black;
+     
+ }
+ .csRadio__Request-Content-table-Content-Request td, .csRadio__Request-Content-table-Content-Request th {
+  width: 300px;
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
+.csRadio__Request-Content-table-Content-Request tr:hover{
+    background-color: #ddd;
+    
+}
+.csRadio__Request-Content-table-Content{  
+    display: inline-table;
+    color: black;
+    border-collapse: collapse; 
+    margin-top: 50px;
+}
+
+.csRadio__Request-Content-table-Content th{  
+   color: white;
+   background-color: black;
+    
+}
+
+
+.csRadio__Request-Content-table-Content td, .csRadio__Request-Content-table-Content th {
+    width: 450px;
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
+
+.csRadio__Request-Content-table-Content tr:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 50px 100px;
+    border-radius: 3px;
+    max-width: 6000px;
+    min-width: 300px;
+    border-style: solid;
+    width: 1000px;
+    
+}
+.modal-content h2 {
+    margin-bottom: 15px;
+    margin-left: 35%;
+    
+}
+
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    padding: 5px 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .input-container input {
+    width: 100%;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: white;
+    color: rgba(115, 117, 117, 0.486);
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+
+
+
+@media screen and (max-width: 800px) {
+    .csRadio__Request{
+        font-family: var(--font-family);
+        background-color: white;
+    }
+    .csRadio_Request-Content{
+        color: white;
+        background-color: black;
+    }
+    .csRadio__Request-Content-text{
+        margin-left: 20%;
+        font-size: 40px; 
+    }
+    .csRadio_Request-Content-SearchBox{
+        margin-top: 10%;
+        margin-left: 75%;
+    }
+    .csRadio__Request-table{
+        margin-top: 30%;
+    }
+    .csRadio_Request-Content-SearchBox p{
+        display: none;
+    }
+    .csRadio__Request-Link{
+        margin-right: 10px;
+    }
+
+    .modal-content {
+        width: 370px;
+    }
+    .modal-content h2 {
+        margin-bottom: 15px;
+        margin-left: 3%;
+        font-size: 20px; 
+    }
+    .csRadio__Request-Link{
+        margin-right: 100px;
+    }
+    .csRadio__Request-Content-table-Content td{
+      width: 250px;
+      border: 3px solid #ddd;
+      padding: 5px;
+    }
+    .csRadio__Request-Content-table-Content th {
+        width: 250px;
+        border: 3px solid #ddd;
+        padding: 10px;
+      }
+    .csRadio__Request-table{
+        margin-left: 16%;
+        margin-top: 5%;
+        width: 100%;
+        font-size: 20px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .csRadio__Request-Link{
+        display: none;
+    }
+    .csRadio_Request-Content-SearchBox{
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    .csRadio__Request-table{
+        margin-top: 30%;
+    }
+
+    .csRadio__Request-Content-table-Content td, .csRadio__Request-Content-table-Content th {
+      width: 150px;
+      border: 3px solid #ddd;
+      font-size: 14px;
+    }
+    .csRadio__Request-table{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 100%;
+        font-size: 20px;
+    
+    }
+    .csRadio__Request-Content-table-Content-Request{
+        display: none;
+    }
+    .csRadio__Request-table-text{
+        display: none;
+    }
+    .modal-content {
+        width: 390px;
+    }
+    
+}
+
+
+
+
+
