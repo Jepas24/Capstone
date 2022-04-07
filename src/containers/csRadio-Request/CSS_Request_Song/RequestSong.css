@@ -199,8 +199,6 @@ body.active-modal {
   .btn:hover {
     opacity: 1;
   }
-
-
 @media screen and (max-width: 800px) {
     .csRadio__Request{
         font-family: var(--font-family);
