@@ -4,48 +4,42 @@
     padding: 2rem 6rem;
     background-color: black;
     font-family: var(--font-family);
-
+    color: rgb(194, 198, 202);
 }
 
 
 .csRadio__Main-Context-text-1{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 50px;
     color: #066fb7;
     margin-left: 250px;
-    
 }
-
 .csRadio__Main-Context-text-2{
-    color: rgb(194, 198, 202);
     margin-top: 25px ;
     margin-left: 250px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
 }
 .csRadio__Main-Context-text-3{
-    color: rgb(194, 198, 202);
     margin-top: 10px ;
     margin-left: 250px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .csRadio__Main-Context-Song-1{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 50px;
     color: #066fb7;
     margin-left: 250px;
 }
 
 .csRadio__Main-Context-Song-2{
-    color: rgb(194, 198, 202);
     margin-top: 25px ;
     margin-left: 250px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
 }
 .csRadio__Main-Context-Song-3{
-    color: rgb(194, 198, 202);
     margin-top: 10px ;
     margin-left: 250px;
     font-size: 15px;
@@ -61,18 +55,14 @@
 }
 
 .csRadio__Main-Context-Filscap-2{
-    color: rgb(194, 198, 202);
     margin-top: 30px ;
     margin-left: 200px;
     font-size: 15px;
     font-weight: 900;
 }
 .csRadio__Main-Context-Filscap img{
-    color: rgb(194, 198, 202);
     margin-top: 30px ;
     margin-left: 200px;
-    font-size: 15px;
-
 }
 @media screen and (max-width: 1700px) {
     .csRadio__Main{
