@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className='csRadio__Footer'>
         <div className='csRadio__Footer-text'>
-        <p>@2022 | CloudStaff | Mobile Team.</p>
+        <p>@2022 | CloudStaff | On The Job Training</p>
         </div>
         <div className='csRadio__Footer-Views'>
         <p>{counter.Counter} Views</p>
