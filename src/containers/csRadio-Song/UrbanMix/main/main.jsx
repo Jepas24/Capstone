@@ -6,7 +6,7 @@ const UrbanMixMain = () => {
   const [posts, setPosts] = useState({})
   useEffect(() =>{
     let isMounted = true;
-    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/urbanmix?_=1649234825089')
+    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/urbanmix?_=1649404321292')
     .then(res => {
       if(isMounted ){
         const nextMusicTitle = res.data.next.title;
