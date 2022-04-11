@@ -7,7 +7,7 @@ const OverDriveSection = () => {
   const [posts, setPosts] = useState({})
   useEffect(() =>{
     let isMounted = true;
-    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/overdrive?_=1649404275972')
+    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/overdrive?_=1649655859527')
     .then(res => {
       if(isMounted ){
         const currentMusicTitle = res.data.current.title;
