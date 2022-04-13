@@ -10,7 +10,7 @@ const Main = () => {
 
   useEffect(() =>{
     let isMounted = true;
-    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/rockfest')
+    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/rockfest?_=1649812689416')
     .then(res => {
       if(isMounted ){
         const nextMusicTitle = res.data.next.title;

@@ -9,7 +9,7 @@ const GraisePraiseSection = () => {
   const [posts, setPosts] = useState({})
   useEffect(() =>{
     let isMounted = true;
-    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/rockfest')
+    axios.get('https://api.codetabs.com/v1/proxy?quest=https://radio.cloudstaff.com/apis/playlist/rockfest?_=1649812689416')
     .then(res => {
       if(isMounted ){
         const currentMusicTitle = res.data.current.title;
