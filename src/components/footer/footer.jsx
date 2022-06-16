@@ -12,13 +12,13 @@ const Footer = () => {
   },[])
   return (
     
-    <div className='ams__Footer'>
+    <div className='ams__Footer' id='ams_Footer-link'>
         <div className='ams_icon'>
-          <i className="fa fa-facebook-square icon"></i>
-          <i className="fa fa-instagram icon"></i>
-          <i className="fa fa-google icon"></i>
-          <i className="fa fa-twitter icon"></i>
-          <i class="fa fa-youtube icon"></i>
+          <a href="https://www.facebook.com/" target="_blank"><i className="fa fa-facebook-square icon"></i></a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><i className="fa fa-instagram icon"></i></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i className="fa fa-google icon"></i></a>
+          <a href="https://twitter.com/i/flow/login"  target="_blank"><i className="fa fa-twitter icon"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"> <i class="fa fa-youtube icon"></i></a>
        </div>
        <div className='ams_footer-content'>
           <div className='ams_footer-content-aboutus'>

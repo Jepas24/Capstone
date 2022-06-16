@@ -20,6 +20,8 @@
   }
  .ams_footer-content{
     display: flex;
+    margin-left: 40px;
+    margin-top: 2%;
  } 
  .ams_footer-content-aboutus{
     background: rgb(122, 122, 124); 
@@ -47,16 +49,16 @@
  } 
 .ams_footer-box{
     display: flex;
+    margin-top: 8%;
 }
 .ams__Footer-text{
     color: rgb(252, 244, 244);
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 14%;
+    
 }
 .ams__Footer-Views{
     margin-left: 48%;
     color: rgb(252, 244, 244);
-    margin-top: 10%;
 }
 
 @media screen and (max-width: 500px) {

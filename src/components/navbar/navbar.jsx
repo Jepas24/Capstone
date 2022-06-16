@@ -16,8 +16,8 @@ const Navbar = () => {
         </div>
         <div className='ams__navbar-links-container'>
           <p><Link to="/Home">Home</Link></p>
-          <p><Link to="/AboutUS">About Us</Link></p>
-          <p><Link to="/ContactUs">Contact Us</Link></p>
+          <p> <a href="#ams_Footer-link">About Us</a> </p>
+          <p> <a href="#ams_Footer-link">Contact Us</a></p>
         </div>
       </div>
       <div className='ams__navbar-menu'>
@@ -28,8 +28,8 @@ const Navbar = () => {
         <div className="ams__navbar-menu_container ">
             <div className="ams__navbar-menu_container-links">
             <p><Link to="/Home">Home</Link></p>
-            <p><Link to="/AboutUS">About Us</Link></p>
-              <p><Link to="/ContactUs">Contact Us</Link></p>
+            <p> <a href="#ams_Footer-link">About Us</a> </p>
+            <p> <a href="#ams_Footer-link">Contact Us</a></p>
             </div>
         </div>
         )}  

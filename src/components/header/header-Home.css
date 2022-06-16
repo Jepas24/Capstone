@@ -16,9 +16,8 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 52%;
-    left: 46%;
-    background-color: #9ee2b5; 
+    top: 60%;
+    left: 35%;
     border: none;
     border-radius: 10px;
     color: white;
@@ -30,23 +29,45 @@
     font-weight: 500;
     margin: 4px 2px;
     cursor: pointer;
+    background-color: green;
 }
 
+.ams__header-button1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+     padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: gray;
+}
 .button2:hover{
     background-color: white;
     color: black;
 }
 
 .button2 {
-    background-color: #34eb34; 
     color: white; 
     border: 2px solid ;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
   }
   
  .csRadio__header-content-t-Overdrive{
     animation: rotate 3s;
  } 
  body.active-modal {
+    
     overflow-y: hidden;
 }
 
@@ -59,17 +80,18 @@
 
 .modal, .overlay {
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     position: fixed;
-
+    
 }
 
 .overlay {
     background: rgba(49,49,49,0.8);
+    
 }
 .modal-content {
     position: absolute;
