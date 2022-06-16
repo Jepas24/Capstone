@@ -2,21 +2,9 @@
     font-family: var(--font-family);
     padding: 2rem 6rem;
     background-color: rgb(56, 54, 54);
-    height: 500px;
+    height: 600px;
 }
-.ams_footer-box{
-    display: flex;
-}
-.ams__Footer-text{
-    color: rgb(252, 244, 244);
-    margin-left: 10%;
-    margin-top: 14%;
-}
-.ams__Footer-Views{
-    margin-left: 48%;
-    color: rgb(252, 244, 244);
-    margin-top: 14%;
-}
+
 .ams_icon{
     display: flex;
 }
@@ -26,10 +14,50 @@
     min-width: 50px;
     text-align: center;
     margin-left: 250px;
-    margin-top: 100px;
+    margin-top: 20px;
     font-size: 50px;
 
   }
+ .ams_footer-content{
+    display: flex;
+ } 
+ .ams_footer-content-aboutus{
+    background: rgb(122, 122, 124); 
+    font-size: 20px; 
+    padding: 10px; 
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 2px 2px 30px rgb(44, 228, 75);
+    width: 35%;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ } 
+ .ams_footer-content-contactus{
+    background: rgb(122, 122, 124); 
+    font-size: 20px; 
+    padding: 10px; 
+    border-radius: 25px;
+    margin-left: 8%;
+    margin-top: 5%;
+    box-shadow: 2px 2px 30px rgb(44, 228, 75);
+    width: 35%;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ } 
+.ams_footer-box{
+    display: flex;
+}
+.ams__Footer-text{
+    color: rgb(252, 244, 244);
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.ams__Footer-Views{
+    margin-left: 48%;
+    color: rgb(252, 244, 244);
+    margin-top: 10%;
+}
 
 @media screen and (max-width: 500px) {
     .ams__Footer{

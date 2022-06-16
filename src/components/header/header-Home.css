@@ -46,6 +46,102 @@
  .csRadio__header-content-t-Overdrive{
     animation: rotate 3s;
  } 
+ body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 120vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: rgba(255,255,255,0.5);
+    padding: 50px 100px;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 300px;
+    border-style: solid;
+    width: 1000px;
+    
+}
+.modal-content h2 {
+    margin-bottom: 15px;
+    margin-left: 20%;
+    color: #0c0b0b;
+    
+}
+
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    padding: 5px 7px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .input-container input {
+    width: 100%;
+    
+  }
+  
+  .iconm {
+    padding: 10px;
+    background: white;
+    color: rgba(115, 117, 117, 0.486);
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
    
 @keyframes rotate{
     0%{
