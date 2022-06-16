@@ -11,12 +11,22 @@ const Footer = () => {
       setCounter({Counter}); });
   },[])
   return (
-    <div className='csRadio__Footer'>
-        <div className='csRadio__Footer-text'>
-        <p>@2022 | CloudStaff | On The Job Training</p>
+    
+    <div className='ams__Footer'>
+        <div className='ams_icon'>
+          <i className="fa fa-facebook-square icon"></i>
+          <i className="fa fa-instagram icon"></i>
+          <i className="fa fa-google icon"></i>
+          <i className="fa fa-twitter icon"></i>
+          <i class="fa fa-youtube icon"></i>
+       </div>
+       <div className='ams_footer-box'>
+        <div className='ams__Footer-text'>
+        <p>@2022 | City College Of San Fernando Pampanga</p>
         </div>
-        <div className='csRadio__Footer-Views'>
+        <div className='ams__Footer-Views'>
         <p>{counter.Counter} Views</p>
+        </div>
         </div>
     </div>
   )

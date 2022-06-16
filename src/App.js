@@ -1,9 +1,5 @@
 import React from 'react'
-import {Navbar,Footer} from './components';
-import {GraisePraiseHeader,GraisePraiseMain,GraisePraiseSection} from './containers/csRadio-Song/GracePraise';
-import {UrbanMixHeader,UrbanMixMain,UrbanMixSection} from './containers/csRadio-Song/UrbanMix';
-import {OverDriveHeader,OverDriveMain,OverDriveSection} from './containers/csRadio-Song/OverDrive';
-import {OverDriveRequest,UrbanMixRequest,GracePraiseRequest} from './containers/csRadio-Request';
+import {Navbar,Footer,Home} from './components';
 import { BrowserRouter as Router, Route, Switch,Redirect  } from 'react-router-dom';
 import { Refreshable } from 'react-router-refreshable'
 import './App.css';
@@ -18,42 +14,17 @@ const App = () => {
       </div>
       
           <Switch>
+            <div className='ams_backgrund-home'>
                 {/* This Route is for Song Play */}
                  <Route exact path="/">
-                    <Redirect to="/OverDrive" />
+                    <Redirect to="/Home" />
                   </Route>
-                  <Route exact path="/OverDrive">
+                  <Route exact path="/Home">
                   <Refreshable>
-                        <OverDriveHeader />
+                        <Home />
                   </Refreshable>
-                        <OverDriveSection />
-                        <OverDriveMain />
-                        
                   </Route>
-                  <Route exact path="/Grace&Praise">
-                  <Refreshable>
-                        <GraisePraiseHeader />
-                  </Refreshable>
-                        <GraisePraiseSection />
-                        <GraisePraiseMain />
-                  </Route>
-                  <Route exact path="/UrbanMix">
-                  <Refreshable>
-                        <UrbanMixHeader />
-                  </Refreshable>
-                        <UrbanMixSection />
-                        <UrbanMixMain />
-                  </Route>
-                  {/* This Route is for Request Song */}
-                  <Route exact path="/Grace-Praise/*">
-                         < GracePraiseRequest />
-                  </Route>
-                  <Route exact path="/OverDrive/*">
-                          < OverDriveRequest />
-                  </Route>
-                  <Route exact path="/UrbanMix/*">
-                        < UrbanMixRequest />
-                  </Route>
+            </div>      
           </Switch>
           
           <Footer />

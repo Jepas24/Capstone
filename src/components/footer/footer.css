@@ -1,31 +1,49 @@
-.csRadio__Footer{
-    display: flex;
+.ams__Footer{
     font-family: var(--font-family);
     padding: 2rem 6rem;
+    background-color: rgb(56, 54, 54);
+    height: 500px;
 }
-
-.csRadio__Footer-text{
-    color: white;
-    margin-left: 14%;
+.ams_footer-box{
+    display: flex;
 }
-.csRadio__Footer-Views{
+.ams__Footer-text{
+    color: rgb(252, 244, 244);
+    margin-left: 10%;
+    margin-top: 14%;
+}
+.ams__Footer-Views{
     margin-left: 48%;
-    color: white;
+    color: rgb(252, 244, 244);
+    margin-top: 14%;
 }
+.ams_icon{
+    display: flex;
+}
+.icon {
+    padding: 5px;
+    color: #fff;
+    min-width: 50px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-size: 50px;
+
+  }
 
 @media screen and (max-width: 500px) {
-    .csRadio__Footer{
+    .ams__Footer{
         flex-direction: row;
     }
 
-    .csRadio__Footer-text{
+    .ams__Footer-text{
         color: white;
         margin-left: 1px;
         font-size: 10px;
         text-align: center;
     }
 
-    .csRadio__Footer-Views{
+    .ams__Footer-Views{
         color: white;
         margin-left: 150px;
         font-size: 10px;
@@ -34,20 +52,20 @@
     
 }
 @media screen and (max-width: 800px) {
-    .csRadio__Footer{
+    .ams__Footer{
         flex-direction: row;
         margin-left: 1px;
         padding: 2rem 1rem;
     }
 
-    .csRadio__Footer-text{
+    .ams__Footer-text{
         color: white;
         margin-left: 1px;
         font-size: 15px;
         text-align: center;
     }
 
-    .csRadio__Footer-Views{
+    .ams__Footer-Views{
         color: white;
         margin-left: 150px;
         font-size: 15px;

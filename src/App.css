@@ -5,8 +5,16 @@
     scroll-behavior: smooth;
   }
   
-  body {
+  .gradient_bg {
     background: var(--color-bg);
+  }
+  .ams_backgrund-home{
+    font-family: var(--font-family);
+    background: url("./assets/picture.png") no-repeat center fixed;
+    background-size: cover;
+    height: 80vh;
+     object-fit: cover;
+     position: relative;
   }
   
   a {
