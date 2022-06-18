@@ -22,7 +22,7 @@ const Home = () => {
             <h1>Monitoring and Control System</h1>
          </div>
          <button className="ams__header-button button2" onClick={Login}>Log in Account</button>
-         <button className="ams__header-button1 button2" onClick={Register}>Register Account</button>
+         
          {modal && (
             <div className="modal">
               <div onClick={Login} className="overlay"></div>
@@ -32,14 +32,15 @@ const Home = () => {
                       <label>UserName:</label>
                         <div className="input-container">
                           <i className="fa fa-sign-in iconm"></i>
-                          <input type="text" name="name" />
+                          <input type="text" name="name" required/>
                         </div>
                       <label>Password:</label> 
                     <div className="input-container">
                        <i className="fa fa-key iconm"></i>
-                   <input type="password" name="name" />
+                   <input type="password" name="name" required/>
                     </div> 
-                   <button type="submit" className="btn">Submit</button>
+                   <button type="submit" className="btn1">Submit</button>
+                   <button className="btn2" onClick={Register}>Register Account</button>
               </form>
                    <button className="close-modal" onClick={Login}>
                    <i className="fa fa-window-close-o iconm"></i>
@@ -56,24 +57,25 @@ const Home = () => {
                       <label>UserName:</label>
                         <div className="input-container">
                           <i className="fa fa-user iconm"></i>
-                          <input type="text" name="name" />
+                          <input type="text" name="name" required/>
                         </div>
                         <label>Email Address:</label> 
                     <div className="input-container">
                        <i className="fa fa-envelope iconm"></i>
-                   <input type="text" name="name" />
+                   <input type="text" name="name" required/>
                     </div> 
                       <label>Password:</label> 
                     <div className="input-container">
                        <i className="fa fa-key iconm"></i>
-                   <input type="password" name="name" />
+                   <input type="password" name="name" required/>
                     </div> 
                     <label>Confirm Password:</label> 
                     <div className="input-container">
                        <i className="fa fa-key iconm"></i>
-                   <input type="password" name="name" />
+                   <input type="password" name="name" required/>
                     </div> 
                    <button type="submit" className="btn">Submit</button>
+                 
               </form>
                    <button className="close-modal" onClick={Register}>
                    <i className="fa fa-window-close-o iconm"></i>
