@@ -12,7 +12,7 @@
     font-family: var(--font-family);
     background: url("./assets/picture.png") no-repeat center fixed;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
      object-fit: cover;
      position: relative;
   }

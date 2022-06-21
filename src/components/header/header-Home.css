@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 35%;
+    top: 42%;
     left: 52%;
     font-family: 'Courier New', Courier, monospace;
     transform: translate(-50%, -50%);
@@ -16,8 +16,8 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 53%;
-    left: 47%;
+    top: 65%;
+    left: 46%;
     border: none;
     border-radius: 10px;
     color: white;
@@ -32,25 +32,6 @@
     background-color: green;
 }
 
-.ams__header-button1 {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 60%;
-    left: 55%;
-    border: none;
-    border-radius: 10px;
-    color: white;
-     padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 500;
-    margin: 4px 2px;
-    cursor: pointer;
-    background-color: gray;
-}
 .button2:hover{
     background-color: white;
     color: black;
