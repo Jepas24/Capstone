@@ -1,7 +1,9 @@
-import React, {useState} from 'react'
+import React, {useState, useRef, useEffect, useContext} from 'react'
 import './header-Home.css';
-import { Link } from 'react-router-dom';
+
+
 const Home = () => {
+
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
   const Login = () => {
@@ -28,20 +30,28 @@ const Home = () => {
               <div onClick={Login} className="overlay"></div>
                 <div className="modal-content">
                   <h2>Log in Account</h2>
-                      <form >
-                      <label>UserName:</label>
-                        <div className="input-container">
-                          <i className="fa fa-sign-in iconm"></i>
-                          <input type="text" name="name" required/>
-                        </div>
-                      <label>Password:</label> 
-                    <div className="input-container">
-                       <i className="fa fa-key iconm"></i>
-                   <input type="password" name="name" required/>
-                    </div> 
-                   <button type="submit" className="btn1">Submit</button>
-                   <button className="btn2" onClick={Register}>Register Account</button>
-              </form>
+                  <form >
+                    <label htmlFor='username'>UserName:</label>
+                      <div className="input-container">
+                        <i className="fa fa-sign-in iconm"></i>
+                        <input 
+                        type="text"
+                        id='username'     
+                        autoComplete="off"
+                        required/>
+                      </div>
+                    <label htmlFor='password'>Password:</label> 
+                  <div className="input-container">
+                     <i className="fa fa-key iconm"></i>
+                      <input type="password"
+                       id='password'
+                       autoComplete="off"
+                       required/>
+                  </div> 
+                 <button type="submit" className="btn1">Submit</button>
+                 <button className="btn2" onClick={Register}>Register Account</button>
+            </form>
+                      
                    <button className="close-modal" onClick={Login}>
                    <i className="fa fa-window-close-o iconm"></i>
               </button>
