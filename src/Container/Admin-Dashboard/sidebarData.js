@@ -5,9 +5,15 @@ import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
   {
-    title: 'Sensor',
+    title: 'Sensor Value',
     path: '/sensor',
     icon: <AiIcons.AiFillHome />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'Graph Value',
+    path: '/Graph',
+    icon: <FaIcons.FaChartBar/>,
     cName: 'nav-text'
   },
   {
@@ -23,15 +29,9 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Messages',
-    path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    title: 'Logout',
+    path: '/Home',
+    icon: <IoIcons.IoMdLogOut />,
     cName: 'nav-text'
   },
-  {
-    title: 'Support',
-    path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />,
-    cName: 'nav-text'
-  }
 ];

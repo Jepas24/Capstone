@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar,Footer,Home} from './components';
-import {Navbardashboard,Sensor, Reports, Team} from './Container';
+import {Navbardashboard,Sensor, Reports, Team, Graph} from './Container';
 import { BrowserRouter as Router, Route, Switch,Redirect  } from 'react-router-dom';
 import { Refreshable } from 'react-router-refreshable'
 import './App.css';
@@ -46,6 +46,10 @@ const App = () => {
                   <Route exact path="/Team">
                      <Navbardashboard />
                      <Team />
+                  </Route>
+                  <Route exact path="/Graph">
+                     <Navbardashboard />
+                     <Graph />
                   </Route>
           </Switch>
     </div>
